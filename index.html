@@ -71,7 +71,7 @@
     font-family:var(--sans); font-size:21px; font-weight:700; letter-spacing:-.01em;
     text-decoration:none; white-space:nowrap;
   }
-  .brand em{ font-style:italic; font-weight:700; }
+  .brand em{ font-style:italic; font-weight:700; margin-right:2.5px; }
   .brand-tagline{
     font-family:var(--sans); font-style:italic; font-size:12.7px; font-weight:500; letter-spacing:.01em;
     color:var(--muted); white-space:nowrap; line-height:1.45;
@@ -514,13 +514,13 @@
   }
   .editorial-quote figcaption .who-name{ color:var(--accent-deep); }
 
-  /* Closing — white overlay over the hero image */
+  /* Closing — powder pastel pink overlay over the background image */
   .closing{
     position:relative;
     isolation:isolate;
     overflow:hidden;
-    background:#ffffff;
-    border-top:1px solid var(--line-soft);
+    background:#fbf0f6;
+    border-top:1px solid #f2d8e7;
     padding:96px 0 88px;
     text-align:center;
   }
@@ -537,7 +537,7 @@
   .closing::after{
     content:"";
     position:absolute; inset:0; z-index:-1;
-    background:linear-gradient(180deg, rgba(255,255,255,.94) 0%, rgba(255,255,255,.82) 45%, rgba(255,255,255,.95) 100%);
+    background:linear-gradient(180deg, rgba(253, 240, 247, 0.94) 0%, rgba(249, 230, 242, 0.84) 45%, rgba(253, 240, 247, 0.95) 100%);
   }
   .closing-in{ max-width:780px; margin:0 auto; position:relative; }
   .closing-icon{
