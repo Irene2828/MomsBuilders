@@ -398,7 +398,7 @@
   .who-panel p{ margin-top:10px; font-size:15.5px; line-height:1.62; color:#d9d9de; }
   .who-panel p strong{ color:#ffffff; }
 
-  /* Mamas — watermark background with white overlay, centered content, left-aligned text */
+  /* Mamas — transparent watermark background, centered content, left-aligned text */
   .mamas-band{
     position:relative; overflow:hidden; background:#ffffff; padding:92px 0;
   }
@@ -407,14 +407,14 @@
     background-image:url('mamas-visual.webp');
     background-size:cover;
     background-position:center;
-    opacity:0.13;
+    opacity:0.10;
     filter:grayscale(10%);
     pointer-events:none;
     z-index:0;
   }
   .mamas-watermark-overlay{
     position:absolute; inset:0;
-    background:linear-gradient(180deg, rgba(255,255,255,0.72) 0%, rgba(255,255,255,0.86) 50%, rgba(255,255,255,0.72) 100%);
+    background:transparent;
     pointer-events:none;
     z-index:1;
   }
